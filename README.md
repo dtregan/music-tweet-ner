@@ -16,3 +16,5 @@ Project which performs Named Entity Recognition on raw tweet text from Million M
 [Hydrator - no longer working]
 [Manual cleaning required for the rehydrated dataset]
 [Computational limitations]
+
+## Index of files created
