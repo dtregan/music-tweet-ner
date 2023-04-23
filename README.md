@@ -66,9 +66,9 @@ python -m spacy download en_core_web_sm
 
 Hydrator *was* used to rehydrate tweet information from tweet IDs. Unfortunately, recent changes to the Twitter API (see below) mean that this is no longer possible. Given the proximity of the timeframe to the hand-in date of this project (01 May 2023), finding another method is no longer feasible, apart from manually copying tweet IDs into Twitter web addresses within browsers to get the required text one-by-one.
 
-UPDATE (as of 18Apr2023):
+UPDATE (from Github page, as of 18Apr2023):
 
-"Twitter's changes to their API which greatly reduce the amount of read-only access means that the Hydrator is no longer a useful application. The application keys, which functioned for the last 7 years, have been rescinded by Twitter."
+*"Twitter's changes to their API which greatly reduce the amount of read-only access means that the Hydrator is no longer a useful application. The application keys, which functioned for the last 7 years, have been rescinded by Twitter."*
 
 ## Updated sklearn-CRFsuite files
 
