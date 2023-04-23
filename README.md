@@ -70,6 +70,8 @@ UPDATE (from Github page, as of 18Apr2023):
 
 *"Twitter's changes to their API which greatly reduce the amount of read-only access means that the Hydrator is no longer a useful application. The application keys, which functioned for the last 7 years, have been rescinded by Twitter."*
 
+To circumvent this, the files 'rehydrated_tweets.csv' is included in this repository, which is the output of a Hydrator session which was undertaken mid-way through March 2023. This file is used in the script 'extract_clean_rehydrated_dataset.py'.
+
 ## Updated sklearn-CRFsuite files
 
 As the TeamHG-Memex sklearn-CRFsuite Github repository is not being maintained anymore, there are some issues that have cropped up in recent years regarding outdated functionality. MeMartijn on Github has updated some of the scripts, which have been included within this repository. The link for the MeMartijn repository is [here](https://github.com/MeMartijn/updated-sklearn-crfsuite#egg=sklearn_crfsuite).
