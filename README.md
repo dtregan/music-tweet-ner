@@ -13,7 +13,7 @@ updated_estimator.py
 updated_metrics.py
 ```
 
-Also required are the below files:
+Also required are the below files, both found at the Million Musical Tweets Dataset project page (last accessed 23 Apr 2023, 18:21):
 
 * mmtd.txt (found in [mmtd.zip](http://www.cp.jku.at/datasets/MMTD/mmtd.zip))
 * tweet.txt (found in [tweet.zip](http://www.cp.jku.at/datasets/MMTD/tweet.zip))
