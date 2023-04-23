@@ -1,6 +1,24 @@
 # music-tweet-ner
 Project which performs Named Entity Recognition on raw tweet text from Million Musical Tweets dataset, using supervised models
 
+ADD MORE
+
+# File list
+
+CHECK
+
+```
+initial_processing.py
+datacleaning_preprocessing.py
+models_artist.py
+models_track.py
+updated_estimator.py
+updated_metrics.py
+cleaned_rehydrated_tweets_text.csv
+mmtd.txt
+tweets.txt
+```
+
 # Dependencies
 
 Install via pip or conda - see below for a list of package install locations, followed by a list of pip install commands (as an example):
