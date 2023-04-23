@@ -65,9 +65,17 @@ updatedestimator.py
 
 # Installing/running
 
-# Guide
+```
+1. Download the contents of the repository.
+2. Unzip/extract contents into a new folder.
+3. In Terminal (macOS) or the Command Prompt, cd/move directory to the extracted folder.
+4. Ensure that the required packages/dependencies are installed (see the 'Dependencies' section in this README).
 
-[step-by-step guide to running the project]
+5. Run initialprocessing.py (i.e., python initialprocessing.py)
+6. Run data_preprocessing.py (i.e., python data_preprocessing.py)
+7. Run models_artist.py (i.e, python models_artist.py)
+8. Run models_track.py (i.e., python models_track.py)
+```
 
 # Limitations
 
