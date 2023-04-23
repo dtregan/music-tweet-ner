@@ -17,6 +17,12 @@ pip install -U spacy
 python -m spacy download en_core_web_sm
 '''
 
+```
+git status
+git add
+git commit
+```
+
 ## Installing/running
 
 ## Guide
