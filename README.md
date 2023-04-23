@@ -34,9 +34,9 @@ Install via pip or conda - see below for a list of package install locations, fo
 * [Tensorflow](https://www.tensorflow.org/install/pip) v2.2
 * [Keras](https://pypi.org/project/keras/) v2.3.1
 * [plot keras history](https://pypi.org/project/plot-keras-history/)
-* [Keras community contributions library](git+https://www.github.com/keras-team/keras-contrib.git)
+* [Keras community contributions library](https://www.github.com/keras-team/keras-contrib.git)
 
-* In terms of installing spaCy & en_core_web_sm, select your operating system, appropriate platofmr, package manager, hardware, highlight 'train models', select pipeline for 'efficiency'.
+* In terms of installing spaCy & en_core_web_sm, select your operating system, appropriate platform, package manager, hardware, highlight 'train models', select pipeline for 'efficiency'.
 
 List of example pip commands relating to the list above:
 ```
