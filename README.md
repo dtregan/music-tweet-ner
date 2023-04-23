@@ -1,6 +1,16 @@
 # music-tweet-ner
 This project will seek to measure the effectiveness of various methods of supervised machine learning and deep learning when undertaking Named Entity Recognition (NER) on a dataset consisting of microblog posts (tweets) which contain named entities in the music domain.
 
+# Contents
+### * File list
+### * Dependencies
+### * Hydrator
+#### * Updated sklearn-CRFsuite files
+### * Installing/running
+### * Limitations
+### * Index of files created
+### * Future work
+
 # File list
 
 ```
