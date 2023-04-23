@@ -15,8 +15,8 @@ Install via pip or conda - see below for a list of package install locations, fo
 * [scikit-learn](https://scikit-learn.org/stable/install.html)
 * [Tweet Preprocessor](https://pypi.org/project/tweet-preprocessor/)
 * [sklearn CRFsuite](https://pypi.org/project/sklearn-crfsuite/)
-* Tensorflow v2.2
-* Keras v2.3.1
+* [Tensorflow](https://www.tensorflow.org/install/pip) v2.2
+* [Keras](https://pypi.org/project/keras/) v2.3.1
 * [plot keras history](https://pypi.org/project/plot-keras-history/)
 
 * In terms of installing spaCy & en_core_web_sm, select your operating system, appropriate platofmr, package manager, hardware, highlight 'train models', select pipeline for 'efficiency'.
@@ -77,3 +77,32 @@ updatedestimator.py
 
 ## Index of files created
 
+* initialprocessing.py
+```
+tweet.csv
+tweetid_artist_track.csv
+just_tweet_ids.csv
+
+```
+* datacleaning_preprocessing.py
+```
+rehydrated_tweets_text.csv
+joined_text_artisttrack.csv
+master_noindex.csv
+master_nodupes_pre.csv
+master_cleaned.csv
+master_nodupes_post.csv
+master_allpunc_removed.csv
+spacy_format_artist.json
+spacy_format_track.json
+data_for_models_artist.csv
+data_for_models_track.csv
+```
+* models_artist.py
+```
+model_artist_output.txt
+```
+* models_track.py
+```
+model_track_output.txt
+```
