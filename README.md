@@ -36,6 +36,22 @@ pip install keras==2.3.1
 pip install plot_keras_history
 ```
 
+List of example conda commands relating to the list above:
+
+```
+pip install pandas
+pip install numpy
+pip install -U pip setuptools wheel
+pip install -U spacy
+pip install srsly
+pip install -U scikit-learn
+pip install tweet-preprocessor
+pip install sklearn-crfsuite
+pip install tensorflow==2.2
+pip install keras==2.3.1
+pip install plot_keras_history
+```
+
 Seperately, install the spaCy model via python:
 
 ```
