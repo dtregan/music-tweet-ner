@@ -23,8 +23,6 @@ tweets.txt
 
 Install via pip or conda - see below for a list of package install locations, followed by a list of pip install commands (as an example):
 
-[note all packages, modules etc. here]
-
 * [Pandas](https://pandas.pydata.org/docs/getting_started/install.html)
 * [Numpy](https://numpy.org/install/)
 * [spaCy](https://spacy.io/usage)*
