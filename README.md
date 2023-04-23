@@ -1,7 +1,7 @@
 # music-tweet-ner
 Project which performs Named Entity Recognition on raw tweet text from Million Musical Tweets dataset, using supervised models
 
-## Dependencies
+# Dependencies
 
 Install via pip or conda - see below for a list of package install locations, followed by a list of pip install commands (as an example):
 
@@ -63,13 +63,13 @@ updatedmetrics.py
 updatedestimator.py
 ```
 
-## Installing/running
+# Installing/running
 
-## Guide
+# Guide
 
 [step-by-step guide to running the project]
 
-## Limitations
+# Limitations
 
 * As mentioned in the 'Hydrator' section, the process for rehydrated a mass of tweet IDs quickly has ceased working, due to recent changes in the Twitter API. Given that the eventual samples used is only in the region of 25,000-30,000, it is moderately feasible that they can be hydrated manually, albeit in a time-consuming fashion.
 * Manual cleaning was also required for the 'rehydrated_tweet_text.csv' dataset, which cannot be automated or replicated with a script. This process included going through the entire rehydrated dataset (620,000+ records, in November 2022) and ensuring that multiple-line tweets were on one line, as well as ensuring that the IDs lined up. Again, with a smaller amount of records, this process is either vastly reduced or much easier in terms of time taken; it took 30+ hours of work to clean that original dataset.
@@ -78,7 +78,7 @@ updatedestimator.py
 ## Device used for project
 * MacBook Pro (Retina, 13-inch, early 2015), with a 2.7 GHz Dual-Core Intel Core i5 processor, and 8GB 1867 MHz DDR3 memory, running macOS Big Sur
 
-## Index of files created
+# Index of files created
 
 All of the below files are created in the running of each of these scripts. These files are created mainly for the purpose of being able to illustrate the transformation of the data between each step, as well as allowing others to use aspects for the process for other means, if required.
 
