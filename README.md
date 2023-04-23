@@ -16,9 +16,8 @@ updated_metrics.py
 Also required are the below files:
 
 * mmtd.txt (found in [mmtd.zip](http://www.cp.jku.at/datasets/MMTD/mmtd.zip))
-* tweet.txt [tweet.zip](http://www.cp.jku.at/datasets/MMTD/tweet.zip)
+* tweet.txt (found in [tweet.zip](http://www.cp.jku.at/datasets/MMTD/tweet.zip))
 
-2. Download [mmtd.zip](http://www.cp.jku.at/datasets/MMTD/mmtd.zip) and [tweet.zip](http://www.cp.jku.at/datasets/MMTD/tweet.zip), and extract mmtd.txt and tweet.txt into the downloaded/cloned folder.
 
 # Dependencies
 
