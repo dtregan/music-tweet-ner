@@ -13,10 +13,12 @@ updated_estimator.py
 updated_metrics.py
 ```
 
-SORT OUT
+Also required are the below files:
 
-mmtd.txt
-tweet.txt
+* mmtd.txt (found in [mmtd.zip](http://www.cp.jku.at/datasets/MMTD/mmtd.zip))
+* tweet.txt [tweet.zip](http://www.cp.jku.at/datasets/MMTD/tweet.zip)
+
+2. Download [mmtd.zip](http://www.cp.jku.at/datasets/MMTD/mmtd.zip) and [tweet.zip](http://www.cp.jku.at/datasets/MMTD/tweet.zip), and extract mmtd.txt and tweet.txt into the downloaded/cloned folder.
 
 # Dependencies
 
@@ -84,9 +86,11 @@ updated_estimator.py - https://github.com/MeMartijn/updated-sklearn-crfsuite/blo
 
 ```
 NOTE: Please ensure that you have at least 2.5GB of space free to install and run the project.
-1. Download the contents of the repository.
-2. Unzip/extract contents into a new folder.
-3. In Terminal (macOS) or the Command Prompt, cd/move directory to the extracted folder.
+
+1. Download the contents of this repository/clone this repository.
+1a. Unzip/extract contents into a new folder, if not cloned.
+2. Download [mmtd.zip](http://www.cp.jku.at/datasets/MMTD/mmtd.zip) and [tweet.zip](http://www.cp.jku.at/datasets/MMTD/tweet.zip), and extract mmtd.txt and tweet.txt into the downloaded/cloned folder.
+3. In Terminal (macOS) or the Command Prompt in Windows, cd/move directory to the extracted/cloned folder/repository.
 4. Ensure that the required packages/dependencies are installed (see the 'Dependencies' section in this README).
 
 5. Run initialprocessing.py (i.e., python initialprocessing.py), which produces files outlined in the 'Index of files created' section
