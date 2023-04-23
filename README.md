@@ -94,7 +94,7 @@ NOTE: Please ensure that you have at least 2.5GB of space free to install and ru
 4. In Terminal (macOS) or the Command Prompt in Windows, cd/move directory to the extracted/cloned folder/repository.
 5. Ensure that the required packages/dependencies are installed (see the 'Dependencies' section in this README).
 6. Run initialprocessing.py (i.e., python initialprocessing.py), which produces files outlined in the 'Index of files created' section
-7. (OPTIONAL) Run extract_clean_rehydrated_dataset.py, (i.e., python extract_clean_rehydrated_dataset.py), which prepares rehydrated file. Optional due to issues with Hydrator, and with the (already performed) manual cleaning step, which produced the file cleaned_rehydrated_tweets_text.csv.
+7. *(OPTIONAL)* Run extract_clean_rehydrated_dataset.py, (i.e., python extract_clean_rehydrated_dataset.py), which prepares rehydrated file. Optional due to issues with Hydrator, and with the (already performed) manual cleaning step, which produced the file cleaned_rehydrated_tweets_text.csv.
 8. Run datacleaning_preprocessing.py (i.e., python datacleaning_preprocessing.py), which produces files outlined in the 'Index of files created' section
 9. Run models_artist.py (i.e, python models_artist.py), which produces a .TXT file which details the running & evaluation relating to 'ARTIST' entites
 10. Run models_track.py (i.e., python models_track.py), which produces a .TXT file which details the running & evaluation relating to 'TRACK' entites
