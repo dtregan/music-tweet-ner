@@ -71,9 +71,12 @@ updatedestimator.py
 
 ## Limitations
 
-[Hydrator - no longer working]
-[Manual cleaning required for the rehydrated dataset]
-[Computational limitations]
+* As mentioned in the 'Hydrator' section, the process for rehydrated a mass of tweet IDs quickly has ceased working, due to recent changes in the Twitter API. Given that the eventual samples used is only in the region of 25,000-30,000, it is moderately feasible that they can be hydrated manually, albeit in a time-consuming fashion.
+* Manual cleaning was also required for the 'rehydrated_tweet_text.csv' dataset, which cannot be automated or replicated with a script. This process included going through the entire rehydrated dataset (620,000+ records, in November 2022) and ensuring that multiple-line tweets were on one line, as well as ensuring that the IDs lined up. Again, with a smaller amount of records, this process is either vastly reduced or much easier in terms of time taken; it took 30+ hours of work to clean that original dataset.
+* In the latter stages of the project, it became obvious that it wouldn't be possible to train the models on the full data available up to that point (620,000+ records), due to computational limitations and a lack of funding for using more computation or resources. The decision was taken to then use the limit of what this device (see below) could handle - this was around 27,500 records.
+
+## Device used for project
+* MacBook Pro (Retina, 13-inch, early 2015), with a 2.7 GHz Dual-Core Intel Core i5 processor, and 8GB 1867 MHz DDR3 memory, running macOS Big Sur
 
 ## Index of files created
 
