@@ -6,6 +6,7 @@ This project will seek to measure the effectiveness of various methods of superv
 ```
 cleaned_rehydrated_tweets_text.csv
 datacleaning_preprocessing.py
+extract_clean_rehydrated_dataset.py
 initial_processing.py
 models_artist.py
 models_track.py
@@ -56,7 +57,6 @@ pip install git+https://www.github.com/keras-team/keras-contrib.git
 ```
 
 Separately, install the spaCy model via python:
-
 ```
 python -m spacy download en_core_web_sm
 ```
@@ -86,8 +86,7 @@ updated_estimator.py - https://github.com/MeMartijn/updated-sklearn-crfsuite/blo
 
 # Installing/running
 
-
-NOTE: Please ensure that you have at least 2.5GB of space free to install and run the project.
+NOTE: Please ensure that you have at least 2.5GB of space free to install and run the project locally.
 
 1. Download the contents of this repository/clone this repository.
 2. Unzip/extract contents into a new folder, if not cloned.
@@ -95,9 +94,10 @@ NOTE: Please ensure that you have at least 2.5GB of space free to install and ru
 4. In Terminal (macOS) or the Command Prompt in Windows, cd/move directory to the extracted/cloned folder/repository.
 5. Ensure that the required packages/dependencies are installed (see the 'Dependencies' section in this README).
 6. Run initialprocessing.py (i.e., python initialprocessing.py), which produces files outlined in the 'Index of files created' section
-7. Run data_preprocessing.py (i.e., python data_preprocessing.py), which produces files outlined in the 'Index of files created' section
-8. Run models_artist.py (i.e, python models_artist.py), which produces a .TXT file which details the running & evaluation relating to 'ARTIST' entites
-9. Run models_track.py (i.e., python models_track.py), which produces a .TXT file which details the running & evaluation relating to 'TRACK' entites
+7. (OPTIONAL) Run extract_clean_rehydrated_dataset.py, (i.e., python extract_clean_rehydrated_dataset.py), which prepares rehydrated file. Optional due to issues with Hydrator, and with the (already performed) manual cleaning step, which produced the file cleaned_rehydrated_tweets_text.csv.
+8. Run datacleaning_preprocessing.py (i.e., python datacleaning_preprocessing.py), which produces files outlined in the 'Index of files created' section
+9. Run models_artist.py (i.e, python models_artist.py), which produces a .TXT file which details the running & evaluation relating to 'ARTIST' entites
+10. Run models_track.py (i.e., python models_track.py), which produces a .TXT file which details the running & evaluation relating to 'TRACK' entites
 
 # Limitations
 
@@ -119,9 +119,12 @@ tweet.csv
 tweetid_artist_track.csv
 just_tweet_ids.csv
 ```
-* datacleaning_preprocessing.py
+* extract_clean_rehydrated_dataset.py
 ```
 rehydrated_tweets_text.csv
+```
+* datacleaning_preprocessing.py
+```
 joined_text_artisttrack.csv
 master_noindex.csv
 master_nodupes_pre.csv
