@@ -3,8 +3,6 @@ This project will seek to measure the effectiveness of various methods of superv
 
 # File list
 
-CHECK
-
 ```
 cleaned_rehydrated_tweets_text.csv
 datacleaning_preprocessing.py
