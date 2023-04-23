@@ -9,7 +9,7 @@ datacleaning_preprocessing.py
 initial_processing.py
 models_artist.py
 models_track.py
-rehydrated_tweets.py
+rehydrated_tweets.csv
 updated_estimator.py
 updated_metrics.py
 ```
