@@ -118,3 +118,7 @@ model_artist_output.txt
 ```
 model_track_output.txt
 ```
+
+# Future work
+
+The plan is to use more computational power to run a greater number of the converted/rehydrated MMTD records, as well as engaging with other methods of learning e.g., semi-supervised and unsupervised.
