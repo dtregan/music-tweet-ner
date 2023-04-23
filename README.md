@@ -25,8 +25,8 @@ Install via pip or conda - see below for a list of package install locations, fo
 
 * [Pandas](https://pandas.pydata.org/docs/getting_started/install.html)
 * [Numpy](https://numpy.org/install/)
-* [spaCy](https://spacy.io/usage)*
-* [spaCy model - en_core_web_sm](https://space.io/usage)*
+* [spaCy](https://spacy.io/usage)**
+* [spaCy model - en_core_web_sm](https://space.io/usage)**
 * [srsly](https://pypi.org/project/srsly/)
 * [scikit-learn](https://scikit-learn.org/stable/install.html)
 * [Tweet Preprocessor](https://pypi.org/project/tweet-preprocessor/)
@@ -36,7 +36,7 @@ Install via pip or conda - see below for a list of package install locations, fo
 * [plot keras history](https://pypi.org/project/plot-keras-history/)
 * [Keras community contributions library](https://www.github.com/keras-team/keras-contrib.git)
 
-* In terms of installing spaCy & en_core_web_sm, select your operating system, appropriate platform, package manager, hardware, highlight 'train models', select pipeline for 'efficiency'.
+** In terms of installing spaCy & en_core_web_sm, select your operating system, appropriate platform, package manager, hardware, highlight 'train models', select pipeline for 'efficiency'.
 
 List of example pip commands relating to the list above:
 ```
