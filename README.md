@@ -1,22 +1,20 @@
 # music-tweet-ner
-Project which performs Named Entity Recognition on raw tweet text from Million Musical Tweets dataset, using supervised models
-
-ADD MORE
+This project will seek to measure the effectiveness of various methods of supervised machine learning and deep learning when undertaking Named Entity Recognition (NER) on a dataset consisting of microblog posts (tweets) which contain named entities in the music domain.
 
 # File list
 
 CHECK
 
 ```
-initial_processing.py
+cleaned_rehydrated_tweets_text.csv
 datacleaning_preprocessing.py
+initial_processing.py
+mmtd.txt
 models_artist.py
 models_track.py
+tweet.txt
 updated_estimator.py
 updated_metrics.py
-cleaned_rehydrated_tweets_text.csv
-mmtd.txt
-tweets.txt
 ```
 
 # Dependencies
@@ -34,6 +32,7 @@ Install via pip or conda - see below for a list of package install locations, fo
 * [Tensorflow](https://www.tensorflow.org/install/pip) v2.2
 * [Keras](https://pypi.org/project/keras/) v2.3.1
 * [plot keras history](https://pypi.org/project/plot-keras-history/)
+* [Keras community contributions library](git+https://www.github.com/keras-team/keras-contrib.git)
 
 * In terms of installing spaCy & en_core_web_sm, select your operating system, appropriate platofmr, package manager, hardware, highlight 'train models', select pipeline for 'efficiency'.
 
@@ -50,9 +49,10 @@ pip install sklearn-crfsuite
 pip install tensorflow==2.2
 pip install keras==2.3.1
 pip install plot_keras_history
+pip install git+https://www.github.com/keras-team/keras-contrib.git
 ```
 
-Seperately, install the spaCy model via python:
+Separately, install the spaCy model via python:
 
 ```
 python -m spacy download en_core_web_sm
@@ -72,25 +72,26 @@ UPDATE (as of 18Apr2023):
 
 As the TeamHG-Memex sklearn-CRFsuite Github repository is not being maintained anymore, there are some issues that have cropped up in recent years regarding outdated functionality. MeMartijn on Github has updated some of the scripts, which have been included within this repository. The link for the MeMartijn repository is [here](https://github.com/MeMartijn/updated-sklearn-crfsuite#egg=sklearn_crfsuite).
 
-The two updated scripts referred in this current repository are:
+The two updated scripts referred to in this current (music-tweet-ner) repository are:
 
 ```
-updatedmetrics.py
-updatedestimator.py
+updated_metrics.py - https://github.com/MeMartijn/updated-sklearn-crfsuite/blob/master/sklearn_crfsuite/metrics.py
+updated_estimator.py - https://github.com/MeMartijn/updated-sklearn-crfsuite/blob/master/sklearn_crfsuite/estimator.py
 ```
 
 # Installing/running
 
 ```
+NOTE: Please ensure that you have at least 2.5GB of space free to install and run the project.
 1. Download the contents of the repository.
 2. Unzip/extract contents into a new folder.
 3. In Terminal (macOS) or the Command Prompt, cd/move directory to the extracted folder.
 4. Ensure that the required packages/dependencies are installed (see the 'Dependencies' section in this README).
 
-5. Run initialprocessing.py (i.e., python initialprocessing.py)
-6. Run data_preprocessing.py (i.e., python data_preprocessing.py)
-7. Run models_artist.py (i.e, python models_artist.py)
-8. Run models_track.py (i.e., python models_track.py)
+5. Run initialprocessing.py (i.e., python initialprocessing.py), which produces files outlined in the 'Index of files created' section
+6. Run data_preprocessing.py (i.e., python data_preprocessing.py), which produces files outlined in the 'Index of files created' section
+7. Run models_artist.py (i.e, python models_artist.py), which produces a .TXT file which details the running & evaluation relating to 'ARTIST' entites
+8. Run models_track.py (i.e., python models_track.py), which produces a .TXT file which details the running & evaluation relating to 'TRACK' entites
 ```
 
 # Limitations
