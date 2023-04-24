@@ -8,7 +8,7 @@ Windows or Mac compatability.
 ### - Dependencies
 #### - Hydrator
 #### - Updated sklearn-CRFsuite files
-### - Installing/running
+### - Installing & running
 ### - Limitations
 ### - Index of files created
 ### - Future work
@@ -105,13 +105,13 @@ updated_metrics.py - https://github.com/MeMartijn/updated-sklearn-crfsuite/blob/
 updated_estimator.py - https://github.com/MeMartijn/updated-sklearn-crfsuite/blob/master/sklearn_crfsuite/estimator.py
 ```
 
-# Installing/running
+# Installing & running
 
 NOTE: Please ensure that you have at least 2.5GB of space free to install and run the project locally.
 
 1. Download the contents of this repository/clone this repository.
 2. Unzip/extract contents into a new folder, if not cloned.
-3. Download mmtd.zip and tweet.zip from [here](http://www.cp.jku.at/datasets/MMTD/) and extract mmtd.txt and tweet.txt into the downloaded/cloned folder.
+3. Download *mmtd.zip* and *tweet.zip* from [here](http://www.cp.jku.at/datasets/MMTD/) and extract mmtd.txt and tweet.txt into the downloaded/cloned folder.
 4. In Terminal (macOS) or the Command Prompt in Windows, cd/move directory to the extracted/cloned folder/repository.
 5. Ensure that the required packages/dependencies are installed (see the 'Dependencies' section in this README).
 6. The running of Python scripts from this point onwards depends on your system. When the instructions demand you to run a .PY script, make sure to run the one that has your system as a suffix e.g. if on Windows, then initialprocessing_windows.py.
