@@ -125,17 +125,17 @@ NOTE: Please ensure that you have at least 2.5GB of space free to install and ru
 
 All of the below files are created in the running of each of these scripts. These files are created mainly for the purpose of being able to illustrate the transformation of the data between each step, as well as allowing others to use aspects for the process for other means, if required.
 
-* initialprocessing.py
+* initialprocessing.py (both macos and windows)
 ```
 tweet.csv
 tweetid_artist_track.csv
 just_tweet_ids.csv
 ```
-* extract_clean_rehydrated_dataset.py
+* extract_clean_rehydrated_dataset.py (both macos and windows)
 ```
 rehydrated_tweets_text.csv
 ```
-* datacleaning_preprocessing.py
+* datacleaning_preprocessing.py (both macos and windows)
 ```
 joined_text_artisttrack.csv
 master_noindex.csv
