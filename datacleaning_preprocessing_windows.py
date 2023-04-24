@@ -45,7 +45,7 @@ indexes_data = pd.read_csv("joined_text_artisttrack.csv",dtype={'tweet_id':'Int6
 
 indexes_df = pd.DataFrame(indexes_data)
 
-indexes_df = indexes_df.head(50000) # provides a decent selection to pick 27500 random records from later, and to use less system resources for processing
+# indexes_df = indexes_df.head(50000) # provides a decent selection to pick 27500 random records from later, and to use less system resources for processing
 
 # print(df.head()) - historic print check
 print('Creating new CSV - cleaning data of extra index columns...')
