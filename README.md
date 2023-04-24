@@ -17,7 +17,8 @@ This project will seek to measure the effectiveness of various methods of superv
 cleaned_rehydrated_tweets_text.csv
 datacleaning_preprocessing_macos.py
 datacleaning_preprocessing_windows.py
-extract_clean_rehydrated_dataset.py
+extract_clean_rehydrated_dataset_macos.py
+extract_clean_rehydrated_dataset_windows.py
 initial_processing_macos.py
 initial_processing_windows.py
 models_artist.py
