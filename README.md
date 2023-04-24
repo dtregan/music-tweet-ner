@@ -82,6 +82,7 @@ pip install keras==2.3.1
 pip install protobuf==3.20.0
 pip install plot_keras_history
 pip install git+https://www.github.com/keras-team/keras-contrib.git
+pip install protobuf==3.20.0
 ```
 
 Separately, install the spaCy model via python:
