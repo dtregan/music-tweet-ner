@@ -119,6 +119,7 @@ NOTE: Please ensure that you have at least 2.5GB of space free to install and ru
 
 1. Download the contents of this repository/clone this repository.
 2. Unzip/extract contents into a new folder, if not cloned.
+3. For whatever reason, the 'rehydrated_tweets.csv' file does not download properly if you download it with the rest of the files. To remedy this, navigate to that file in this repository, right-click 'Download' (ensuring that you save into the same directory as the rest of the files, overwriting the other file if necessary), and then ensure that it saves as a CSV, not TXT (by selecting 'All files', or specifying .csv).
 3. Download *mmtd.zip* and *tweet.zip* from [here](http://www.cp.jku.at/datasets/MMTD/) and extract *mmtd.txt* and *tweet.txt* into the downloaded/cloned folder.
 4. In Terminal (macOS) or the Command Prompt in Windows, cd/move directory to the extracted/cloned folder/repository.
 5. Ensure that the required packages/dependencies are installed (see the 'Dependencies' section in this README).
