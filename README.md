@@ -35,7 +35,7 @@ Also required are the below files, both found at the Million Musical Tweets Data
 * *mmtd.txt* (found in [mmtd.zip](http://www.cp.jku.at/datasets/MMTD/))
 * *tweet.txt* (found in [tweet.zip](http://www.cp.jku.at/datasets/MMTD/))
 
-The below files are also included in case you *just* want to run the models - they are both the outputs of running *initial_processing.py, extract_clean_rehydrated_dataset.py and datacleaning_preprocessing.py*:
+The below files are also included in case you *just* want to run the models (i.e., steps 10 & 11 under 'Installing & running' - they are both the outputs of running *initial_processing.py, extract_clean_rehydrated_dataset.py and datacleaning_preprocessing.py*:
 
 ```
 data_for_models_artist.csv
