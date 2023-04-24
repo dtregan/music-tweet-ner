@@ -1,5 +1,7 @@
 # music-tweet-ner
-This project will seek to measure the effectiveness of various methods of supervised machine learning and deep learning when undertaking Named Entity Recognition (NER) on a dataset consisting of microblog posts (tweets) which contain named entities in the music domain. Windows or Mac compatability.
+This project will seek to measure the effectiveness of various methods of supervised machine learning and deep learning when undertaking Named Entity Recognition (NER) on a dataset consisting of microblog posts (tweets) which contain named entities in the music domain. 
+
+Windows or Mac compatability.
 
 # Contents
 ### - File list
@@ -36,6 +38,10 @@ Also required are the below files, both found at the Million Musical Tweets Data
 
 # Dependencies
 
+Firstly, install [Python 3.7.4 64-bit]([https://protobuf.dev/](https://www.python.org/downloads/release/python-374/) and [Git](https://git-scm.com/downloads).
+
+Installing all of the below packages within a virtual environment is not essential, but is recommended. On Windows, the packages below will not all correctly and fully install *unless* Python 3.7.4, so ensure that you either amend your PATH to point towards the Python 3.7.4 installation, or set the Python used by your virtual environment as 3.7.4 on setup (e.g. python3.7 -m venv path\to\your\dir).
+
 Install via pip or conda - see below for a list of package install locations, followed by a list of pip install commands (as an example):
 
 * [Pandas](https://pandas.pydata.org/docs/getting_started/install.html)
@@ -50,6 +56,7 @@ Install via pip or conda - see below for a list of package install locations, fo
 * [Keras](https://pypi.org/project/keras/) v2.3.1
 * [plot keras history](https://pypi.org/project/plot-keras-history/)
 * [Keras community contributions library](https://www.github.com/keras-team/keras-contrib.git)
+* [Protobuf](https://protobuf.dev/) v3.20.0
 
 ** In terms of installing spaCy & en_core_web_sm, select your operating system, appropriate platform, package manager, hardware, highlight 'train models', select pipeline for 'efficiency'.
 
@@ -65,6 +72,7 @@ pip install tweet-preprocessor
 pip install sklearn-crfsuite
 pip install tensorflow==2.2
 pip install keras==2.3.1
+pip install protobuf==3.20.0
 pip install plot_keras_history
 pip install git+https://www.github.com/keras-team/keras-contrib.git
 ```
@@ -121,7 +129,7 @@ NOTE: Please ensure that you have at least 2.5GB of space free to install and ru
 * In the latter stages of the project, it became obvious that it wouldn't be possible to train the models on the full data available up to that point (620,000+ records), due to computational limitations and a lack of funding for using more computation or resources. The decision was taken to then use the limit of what this device (see below) could handle - this was around 27,500 records.
 * The two entities 'ARTIST' and 'TRACK' are split at a late stage in the datacleaning_preprocessing.py script. This was primarily due to the script containing *both* of the entities ('ARTIST', then 'TRACK') crashing when attempting to run all of the models in one run. This makes the process more cumbersome than it is, due to the running of two separate scripts when it could realistically be one.
 
-## Device used for project
+## Device originally used for project
 * MacBook Pro (Retina, 13-inch, early 2015), with a 2.7 GHz Dual-Core Intel Core i5 processor, and 8GB 1867 MHz DDR3 memory, running macOS Big Sur
 
 # Index of files created
