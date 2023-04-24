@@ -32,8 +32,15 @@ updated_metrics.py
 
 Also required are the below files, both found at the Million Musical Tweets Dataset project page (last accessed 23 Apr 2023, 18:21):
 
-* mmtd.txt (found in [mmtd.zip](http://www.cp.jku.at/datasets/MMTD/))
-* tweet.txt (found in [tweet.zip](http://www.cp.jku.at/datasets/MMTD/))
+* *mmtd.txt* (found in [mmtd.zip](http://www.cp.jku.at/datasets/MMTD/))
+* *tweet.txt* (found in [tweet.zip](http://www.cp.jku.at/datasets/MMTD/))
+
+The below files are also included in case you *just* want to run the models - they are both the outputs of running *initial_processing.py, extract_clean_rehydrated_dataset.py and datacleaning_preprocessing.py*:
+
+```
+data_for_models_artist.csv
+data_for_models_track.csv
+```
 
 
 # Dependencies
