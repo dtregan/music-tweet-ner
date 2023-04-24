@@ -1,5 +1,5 @@
 # music-tweet-ner
-This project will seek to measure the effectiveness of various methods of supervised machine learning and deep learning when undertaking Named Entity Recognition (NER) on a dataset consisting of microblog posts (tweets) which contain named entities in the music domain.
+This project will seek to measure the effectiveness of various methods of supervised machine learning and deep learning when undertaking Named Entity Recognition (NER) on a dataset consisting of microblog posts (tweets) which contain named entities in the music domain. Windows or Mac compatability.
 
 # Contents
 ### - File list
@@ -29,8 +29,8 @@ updated_metrics.py
 
 Also required are the below files, both found at the Million Musical Tweets Dataset project page (last accessed 23 Apr 2023, 18:21):
 
-* mmtd.txt (found in [mmtd.zip](http://www.cp.jku.at/datasets/MMTD/mmtd.zip))
-* tweet.txt (found in [tweet.zip](http://www.cp.jku.at/datasets/MMTD/tweet.zip))
+* mmtd.txt (found in [mmtd.zip](http://www.cp.jku.at/datasets/MMTD/))
+* tweet.txt (found in [tweet.zip](http://www.cp.jku.at/datasets/MMTD/))
 
 
 # Dependencies
@@ -102,17 +102,19 @@ NOTE: Please ensure that you have at least 2.5GB of space free to install and ru
 
 1. Download the contents of this repository/clone this repository.
 2. Unzip/extract contents into a new folder, if not cloned.
-3. Download [mmtd.zip](http://www.cp.jku.at/datasets/MMTD/mmtd.zip) and [tweet.zip](http://www.cp.jku.at/datasets/MMTD/tweet.zip), and extract mmtd.txt and tweet.txt into the downloaded/cloned folder.
+3. Download mmtd.zip and tweet.zip from [here](http://www.cp.jku.at/datasets/MMTD/) and extract mmtd.txt and tweet.txt into the downloaded/cloned folder.
 4. In Terminal (macOS) or the Command Prompt in Windows, cd/move directory to the extracted/cloned folder/repository.
 5. Ensure that the required packages/dependencies are installed (see the 'Dependencies' section in this README).
-6. Run initialprocessing.py (i.e., python initialprocessing.py), which produces files outlined in the 'Index of files created' section
-7. *(OPTIONAL)* Run extract_clean_rehydrated_dataset.py, (i.e., python extract_clean_rehydrated_dataset.py), which prepares rehydrated file. Optional due to issues with Hydrator, and with the (already performed) manual cleaning step, which produced the file cleaned_rehydrated_tweets_text.csv.
-8. Run datacleaning_preprocessing.py (i.e., python datacleaning_preprocessing.py), which produces files outlined in the 'Index of files created' section
-9. Run models_artist.py (i.e, python models_artist.py), which produces a .TXT file which details the running & evaluation relating to 'ARTIST' entites
-10. Run models_track.py (i.e., python models_track.py), which produces a .TXT file which details the running & evaluation relating to 'TRACK' entites
+6. The running of Python scripts from this point onwards depends on your system. When the instructions demand you to run a .PY script, make sure to run the one that has your system as a suffix e.g. if on Windows, then initialprocessing_windows.py.
+7. Run initialprocessing.py (i.e., python initialprocessing.py), which produces files outlined in the 'Index of files created' section
+8. *(OPTIONAL)* Run extract_clean_rehydrated_dataset.py, (i.e., python extract_clean_rehydrated_dataset.py), which prepares rehydrated file. Optional due to issues with Hydrator, and with the (already performed) manual cleaning step, which produced the file cleaned_rehydrated_tweets_text.csv.
+9. Run datacleaning_preprocessing.py (i.e., python datacleaning_preprocessing.py), which produces files outlined in the 'Index of files created' section
+10. Run models_artist.py (i.e, python models_artist.py), which produces a .TXT file which details the running & evaluation relating to 'ARTIST' entites
+11. Run models_track.py (i.e., python models_track.py), which produces a .TXT file which details the running & evaluation relating to 'TRACK' entites
 
 # Limitations
 
+* The scripts are split between Windows and Mac due to a frustrating issue regarding newline and additions of '/r' symbols at the end of the final column when using the command .to_csv in pandas on Windows. The code is slightly different between the scripts to reflect the differences required.
 * As mentioned in the 'Hydrator' section, the process for rehydrated a mass of tweet IDs quickly has ceased working, due to recent changes in the Twitter API. Given that the eventual samples used is only in the region of 25,000-30,000, it is moderately feasible that they can be hydrated manually, albeit in a time-consuming fashion.
 * Manual cleaning was also required for the 'cleaned_rehydrated_tweets_text.csv' dataset, which cannot be automated or replicated with a script. This process included going through the entire rehydrated dataset (620,000+ records, in November 2022) and ensuring that multiple-line tweets were on one line, as well as ensuring that the IDs lined up. Again, with a smaller amount of records, this process is either vastly reduced or much easier in terms of time taken; it took 30+ hours of work to clean that original dataset.
 * In the latter stages of the project, it became obvious that it wouldn't be possible to train the models on the full data available up to that point (620,000+ records), due to computational limitations and a lack of funding for using more computation or resources. The decision was taken to then use the limit of what this device (see below) could handle - this was around 27,500 records.
