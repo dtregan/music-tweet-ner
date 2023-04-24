@@ -114,7 +114,7 @@ NOTE: Please ensure that you have at least 2.5GB of space free to install and ru
 3. Download *mmtd.zip* and *tweet.zip* from [here](http://www.cp.jku.at/datasets/MMTD/) and extract *mmtd.txt* and *tweet.txt* into the downloaded/cloned folder.
 4. In Terminal (macOS) or the Command Prompt in Windows, cd/move directory to the extracted/cloned folder/repository.
 5. Ensure that the required packages/dependencies are installed (see the 'Dependencies' section in this README).
-6. The running of Python scripts from this point onwards depends on your system. When the instructions demand you to run a .PY script, make sure to run the one that has your system as a suffix e.g. if on Windows, then initialprocessing_windows.py.
+**6. The running of Python scripts from this point onwards depends on your system. When the instructions demand you to run a .PY script, make sure to run the one that has your system as a suffix e.g. if on Windows, then initialprocessing_windows.py.**
 7. Run initialprocessing.py (i.e., python initialprocessing.py), which produces files outlined in the 'Index of files created' section
 8. *(OPTIONAL)* Run extract_clean_rehydrated_dataset.py, (i.e., python extract_clean_rehydrated_dataset.py), which prepares rehydrated file. Optional due to issues with Hydrator, and with the (already performed) manual cleaning step, which produced the file cleaned_rehydrated_tweets_text.csv.
 9. Run datacleaning_preprocessing.py (i.e., python datacleaning_preprocessing.py), which produces files outlined in the 'Index of files created' section
